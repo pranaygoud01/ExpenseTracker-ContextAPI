@@ -9,7 +9,7 @@ function App() {
 
   return (
     <TransactionProvider>
-    <div className="flex justify-center h-[100vh] py-10 bg-neutral-100 items-center overflow-hidden" >
+    <div className="flex justify-center min-h-[100vh] h-fit py-10 bg-neutral-100 items-center overflow-hidden" >
         <div className="w-[400px] max-lg:w-10/12 h-fit">
           <Balance />
           <Details />
